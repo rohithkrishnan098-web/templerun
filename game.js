@@ -187,7 +187,7 @@ function createObstacle(){
     const obstacle =
     document.createElement("img");
 
-    obstacle.src ="obstacle/obstacle.png";
+    obstacle.src = "obstacle.png";
 
     obstacle.classList.add("obstacle");
 
@@ -316,7 +316,7 @@ function createCoin(){
 
     const coin = document.createElement("img");
 
-    coin.src = "assets/coin.png";
+    coin.src = "coin.png";
 
     coin.classList.add("coin");
 
